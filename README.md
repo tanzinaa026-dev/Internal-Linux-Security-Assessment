@@ -1,4 +1,5 @@
 Internal Linux Security Assessment
+
 This project simulates an internal Linux security assessment and demonstrates my understanding of real‑world penetration‑testing methodology.
 It highlights my ability to organize findings, document each phase clearly, and follow a professional security‑assessment workflow.
 
