@@ -1,0 +1,15 @@
+# User Enumeration
+
+# /etc/passwd (relevant users)
+root:x:0:0:root:/root:/bin/bash
+developer:x:1001:1001:Developer User:/home/developer:/bin/bash
+backup:x:1002:1002:Backup Service:/home/backup:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+
+# Current user after SSH login
+uid=1001(developer) gid=1001(developer) groups=1001(developer)
+
+# Notes
+- "developer" has a valid login shell.
+- "developer" has no sudo privileges.
+- "backup" and "www-data" are service accounts.
