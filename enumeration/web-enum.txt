@@ -1,0 +1,20 @@
+# Web Enumeration
+
+# Manual Browsing
+/               -> Basic landing page
+/login          -> Internal login form
+/about          -> Static info page
+
+# Directory Brute Force (Gobuster)
+/config/        -> 403 Forbidden
+/backup/        -> 200 OK
+/notes/         -> 200 OK
+/old/           -> 200 OK
+
+# Interesting Files
+/notes/dev-notes.txt
+- Mentions user "developer"
+- Mentions default password not changed
+
+/backup/db-backup.sql
+- Database backup exposed publicly
